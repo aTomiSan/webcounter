@@ -5,13 +5,15 @@
   <title>Laskuri</title>
 </head>
 <body>
-  <h2>Ohtulaskuri</h2>
-  <div>nappia painettu {{ value }} kertaa</div>
-  <form action="/increment" method="POST">
-    <input type="submit" value="Paina">
-  </form>
-  <form action="/reset" method="POST">
-    <input type="submit" value="Nollaa" id="Nollaa">
-  </form>
+  <div>
+    <h2>Ohtulaskuri</h2>
+    <div>nappia painettu {{ value }} kertaa</div>
+    <form action="/increment" method="POST">
+      <input type="submit" value="Paina">
+    </form>
+    <form action="/reset" method="POST">
+      <input type="submit" value="Nollaa" id="Nollaa">
+    </form>
+  </div>
 </body>
 </html>
